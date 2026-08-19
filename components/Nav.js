@@ -46,7 +46,7 @@ export default function Nav() {
           onClick={() => setMenuOpen(false)}
         >
           <Image
-            src="/images/georgiekinslogo.png"
+            src="/images/Georgiekinslogo.png"
             alt="Georgiekins — home"
             width={160}
             height={52}
