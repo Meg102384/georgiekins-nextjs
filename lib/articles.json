@@ -1,0 +1,578 @@
+{
+  "pets": {
+    "cat": {
+      "label": "Cat Care",
+      "emoji": "\ud83d\udc31",
+      "host": "Georgie",
+      "img": "cat.png"
+    },
+    "dog": {
+      "label": "Dog Care",
+      "emoji": "\ud83d\udc36",
+      "host": "Maple",
+      "img": "dog.png"
+    },
+    "gecko": {
+      "label": "Gecko Care",
+      "emoji": "\ud83e\udd8e",
+      "host": "Sprout",
+      "img": "gecko.png"
+    },
+    "guineapig": {
+      "label": "Guinea Pig Care",
+      "emoji": "\ud83d\udc39",
+      "host": "Cleo",
+      "img": "guineapig.png"
+    },
+    "bird": {
+      "label": "Bird Care",
+      "emoji": "\ud83d\udc26",
+      "host": "Felix",
+      "img": "bird.png"
+    },
+    "bunny": {
+      "label": "Bunny Care",
+      "emoji": "\ud83d\udc30",
+      "host": "Winnie",
+      "img": "bunny.png"
+    }
+  },
+  "articles": {
+    "cat": [
+      {
+        "title": "10 Things to Do the Day You Bring Your Cat Home",
+        "desc": "A step-by-step first-day checklist for new cat parents, from Georgie the cat himself \u2014 safe room setup, litter box basics, and more.",
+        "slug": "10-things-to-do-the-day-you-bring-your-cat-home",
+        "list": [
+          {
+            "h": "Set up a safe base room first.",
+            "d": "Give your cat one quiet room with food, water, a litter box, and a hiding spot before they explore the whole house."
+          },
+          {
+            "h": "Skip the welcome party.",
+            "d": "Keep the house calm and quiet for the first day \u2014 no visitors, no loud introductions to other pets yet."
+          },
+          {
+            "h": "Let them come to you.",
+            "d": "Sit on the floor nearby and let your cat approach on their own terms instead of reaching for them."
+          },
+          {
+            "h": "Show them the litter box right away.",
+            "d": "Gently place them near it so they know exactly where it is from the start."
+          },
+          {
+            "h": "Cat-proof the room.",
+            "d": "Tuck away cords, small objects, and anything dangling that looks chewable or swallowable."
+          },
+          {
+            "h": "Have food and water ready.",
+            "d": "Stick with whatever food they were eating before, if you know it, to avoid tummy upset on day one."
+          },
+          {
+            "h": "Book a first vet visit.",
+            "d": "Schedule a check-up within the first week or two, even if your cat seems perfectly healthy."
+          },
+          {
+            "h": "Get ID sorted.",
+            "d": "Add a collar with a tag, and ask your vet about microchipping if they aren't chipped already."
+          },
+          {
+            "h": "Watch, don't hover.",
+            "d": "It's normal for a new cat to hide for the first day or two \u2014 check on them, but give them space to decompress."
+          },
+          {
+            "h": "Start a little journal.",
+            "d": "Jot down eating habits, personality quirks, and vet info from day one \u2014 future you will thank present you."
+          }
+        ]
+      },
+      {
+        "title": "Foods Cats Should Never Eat (and Why)",
+        "desc": "A clear guide to the everyday foods that are dangerous for cats, from onions and chocolate to grapes and xylitol.",
+        "slug": "foods-cats-should-never-eat-and-why",
+        "paras": [
+          "Cats are obligate carnivores with a metabolism that handles some everyday foods very badly. Onions, garlic, chives, and leeks damage red blood cells and can cause anemia, even cooked or powdered.",
+          "Chocolate and anything with caffeine contain compounds cats can't metabolize, affecting the heart and nervous system. Grapes and raisins have been linked to kidney failure in cats and dogs alike, even in small amounts.",
+          "Alcohol and raw yeast dough are dangerous too \u2014 dough can expand in the stomach and ferment into alcohol as it rises. Xylitol, a sweetener in sugar-free gum and some peanut butters, causes a rapid, dangerous drop in blood sugar.",
+          "When in doubt, keep human food off the menu and stick to cat-specific treats \u2014 and call your vet or the ASPCA Poison Control line right away if you suspect your cat has eaten something risky."
+        ]
+      },
+      {
+        "title": "Litter Box Setup & Cleaning Basics",
+        "desc": "How many litter boxes you need, where to put them, and how often to clean for a happy, accident-free cat.",
+        "slug": "litter-box-setup-cleaning-basics",
+        "paras": [
+          "The general rule of thumb is one litter box per cat, plus one extra \u2014 so a two-cat household ideally has three boxes. Place boxes in quiet, low-traffic spots that are still easy to reach, and avoid clustering them all in one room if you can, since some cats prefer options.",
+          "Scoop at least once a day; cats are famously particular about a clean bathroom, and a dirty box is one of the most common reasons cats start going elsewhere. Do a full litter change and box scrub every one to two weeks depending on the litter type.",
+          "Unscented, fine-grained clumping litter is generally the most widely tolerated by cats, though every cat has preferences. If you notice sudden changes in litter box habits \u2014 going outside the box, straining, or unusual frequency \u2014 it's worth a vet visit, since it can signal a urinary issue."
+        ]
+      },
+      {
+        "title": "Reading Cat Body Language",
+        "desc": "What your cat's tail, ears, eyes, and posture are really telling you, decoded by Georgie.",
+        "slug": "reading-cat-body-language",
+        "paras": [
+          "Cats communicate constantly through body language, even when they're silent. A tail held high with a slight curve at the tip usually signals a happy, confident cat, while a puffed-up tail means fear or overstimulation.",
+          "Slow blinks are often called 'cat kisses' \u2014 a relaxed cat making soft eye contact and blinking slowly is showing trust, and you can blink back to return the gesture. Ears pinned flat or swiveled sideways signal irritation or anxiety, while forward, upright ears show curiosity or alertness.",
+          "A twitching tail tip can mean mild irritation or focused hunting energy, while a whole-tail thrash usually means 'back off.' Kneading with the front paws (sometimes called 'making biscuits') is a comforting, kitten-like behavior many cats carry into adulthood.",
+          "Learning these small signals helps you know when your cat wants attention \u2014 and when they'd rather be left alone."
+        ]
+      },
+      {
+        "title": "How Much Sleep Is Normal for a Cat?",
+        "desc": "Why cats sleep 12-16 hours a day, and when a change in sleep habits is worth mentioning to your vet.",
+        "slug": "how-much-sleep-is-normal-for-a-cat",
+        "paras": [
+          "It's completely normal for a cat to sleep 12 to 16 hours a day, and some cats \u2014 especially kittens and seniors \u2014 sleep even more. Cats are crepuscular, meaning they're naturally most active at dawn and dusk, with long stretches of rest in between.",
+          "This sleep pattern is a holdover from their wild ancestors, who needed to conserve energy between short bursts of hunting. True deep sleep only makes up a portion of that time; much of a cat's rest is light dozing, where they can wake instantly if something interesting happens.",
+          "If your cat's sleep habits change dramatically \u2014 sleeping far more or less than usual, or seeming lethargic during normal awake hours \u2014 it's worth mentioning to your vet, since changes in energy can sometimes point to an underlying health issue."
+        ]
+      }
+    ],
+    "dog": [
+      {
+        "title": "10 Things to Do the Day You Bring Your Dog Home",
+        "desc": "A first-day checklist for new dog parents, from Maple \u2014 potty breaks, house rules, and settling in calmly.",
+        "slug": "10-things-to-do-the-day-you-bring-your-dog-home",
+        "list": [
+          {
+            "h": "Go straight to the potty spot.",
+            "d": "Take your dog to their designated bathroom area before anything else, and reward them when they go."
+          },
+          {
+            "h": "Keep the first day low-key.",
+            "d": "Skip the dog park and big introductions \u2014 let your dog settle into the house before adding new stimulation."
+          },
+          {
+            "h": "Set up a cozy den.",
+            "d": "A crate or bed in a quiet corner gives your dog a safe spot to retreat to when things feel like a lot."
+          },
+          {
+            "h": "Stick to their old food at first.",
+            "d": "Sudden food changes can upset a dog's stomach \u2014 transition gradually over a week if you plan to switch."
+          },
+          {
+            "h": "Do a walkthrough puppy-proof.",
+            "d": "Tuck away shoes, cords, and anything chewable at nose height."
+          },
+          {
+            "h": "Introduce family members one at a time.",
+            "d": "Calm, one-on-one greetings beat a loud group welcome."
+          },
+          {
+            "h": "Start basic house rules immediately.",
+            "d": "Whatever you decide about furniture, doors, or off-limits rooms, stay consistent from day one."
+          },
+          {
+            "h": "Book that first vet visit.",
+            "d": "Get a baseline check-up scheduled within the first couple of weeks."
+          },
+          {
+            "h": "Watch for signs of stress.",
+            "d": "Panting, pacing, or hiding are normal in the first few days \u2014 patience goes a long way."
+          },
+          {
+            "h": "Take a first-day photo.",
+            "d": "You'll want it later, we promise."
+          }
+        ]
+      },
+      {
+        "title": "What to Include in a Pet Sitter Guide",
+        "desc": "The essential info every dog sitter needs: feeding schedule, emergency contacts, medications, and quirks.",
+        "slug": "what-to-include-in-a-pet-sitter-guide",
+        "paras": [
+          "A good sitter guide covers the essentials a stranger to your home would need: your dog's daily feeding schedule (amount, brand, and timing), walk routine, and any commands they respond to. Include emergency info \u2014 your vet's contact, a 24-hour emergency clinic nearby, and your own contact details plus a backup person.",
+          "Note any medications with exact dosing instructions, plus behavioral quirks like reactivity to other dogs, fear of thunderstorms, or resource guarding. Don't forget the small stuff: where the leash and poop bags live, whether your dog is allowed on furniture, and any household rules (like which rooms are off-limits).",
+          "A photo of your dog is genuinely useful too, in case a sitter needs to describe them to a vet or, worst case, help search if they slip out. The more specific and written-down the info is, the less likely small details get lost in a rushed hand-off."
+        ]
+      },
+      {
+        "title": "Puppy-Proofing Your Home",
+        "desc": "A room-by-room safety checklist to get your house ready before a new puppy arrives.",
+        "slug": "puppy-proofing-your-home",
+        "paras": [
+          "Puppies explore the world mouth-first, so a thorough sweep of your home before they arrive saves a lot of stress. Get down to their eye level and look for dangling cords, loose wires, and small objects within reach \u2014 anything that can be chewed or swallowed.",
+          "Secure cabinets with cleaning supplies, medications, and trash, and move toxic houseplants out of reach (lilies, sago palm, and azaleas are especially dangerous to pets). Block off stairs or unsafe areas with a puppy gate until they're steadier and better trained.",
+          "Keep shoes, socks, and small household items picked up, since these are common chewing and swallowing hazards. Finally, set up a designated safe space \u2014 a crate or playpen with water, a comfortable bed, and safe chew toys \u2014 so your puppy has somewhere calm to settle when you can't supervise directly."
+        ]
+      },
+      {
+        "title": "Understanding Tail Wags & Body Language",
+        "desc": "Not all tail wags mean happy \u2014 here's how to read a dog's full body language accurately.",
+        "slug": "understanding-tail-wags-body-language",
+        "paras": [
+          "Not all tail wags mean the same thing, and reading the whole body gives a much clearer picture than the tail alone. A loose, wide wag with relaxed body language usually means genuine happiness, while a stiff, high, fast wag can actually signal arousal or tension rather than friendliness.",
+          "Tucked tails signal fear or submission, and tails held straight out and rigid often mean alertness or potential aggression. Pair the tail with the ears and posture: relaxed ears and a soft, wiggly body confirm friendliness, while pinned ears, a stiff stance, or a lowered head paired with a wagging tail can mean a dog is unsure or uncomfortable, not happy.",
+          "Yawning, lip-licking, and looking away are subtle stress signals dogs show well before growling or snapping \u2014 learning to spot these early helps you step in and give your dog space before things escalate."
+        ]
+      },
+      {
+        "title": "Building a Simple Daily Routine",
+        "desc": "Why predictability matters so much for dogs, and how to build a routine that sticks.",
+        "slug": "building-a-simple-daily-routine",
+        "paras": [
+          "Dogs thrive on predictability, and a simple daily rhythm helps reduce anxiety and behavioral issues. Aim for consistent wake-up, feeding, and walk times \u2014 dogs have an excellent internal clock and will often start anticipating (and calming down around) a routine within a couple of weeks.",
+          "Build in at least one real walk or active play session daily for physical exercise, plus some form of mental stimulation like a puzzle feeder, training session, or sniff-focused walk, since mental tiredness matters as much as physical. Consistent bedtime routines \u2014 a last potty break, a calm wind-down period \u2014 help dogs settle for the night more easily.",
+          "If your schedule varies day to day, try to keep the big anchors (first meal, last walk) roughly consistent even if the exact time shifts, since dogs adapt well to flexible-but-predictable patterns."
+        ]
+      }
+    ],
+    "gecko": [
+      {
+        "title": "10 Things to Do the Day You Bring Your Gecko Home",
+        "desc": "A calm, low-stress first-day checklist for new leopard gecko owners, from Sprout.",
+        "slug": "10-things-to-do-the-day-you-bring-your-gecko-home",
+        "list": [
+          {
+            "h": "Set up the tank before the gecko arrives.",
+            "d": "Habitat, heat, and hides should all be ready and tested a day or two ahead of time."
+          },
+          {
+            "h": "Check your temperatures first.",
+            "d": "Confirm the warm and cool sides are both in range before your gecko ever goes in."
+          },
+          {
+            "h": "Skip the handling on day one.",
+            "d": "Let your gecko settle into their new space for a few days before any handling begins."
+          },
+          {
+            "h": "Offer water right away.",
+            "d": "A shallow water dish should be available and easy to find from the very first hour."
+          },
+          {
+            "h": "Give them hiding options.",
+            "d": "Make sure a hide is available on both the warm and cool sides immediately."
+          },
+          {
+            "h": "Wait a day before the first meal.",
+            "d": "Let your gecko settle in before offering food \u2014 a stressed gecko often won't eat anyway."
+          },
+          {
+            "h": "Keep the room calm.",
+            "d": "Avoid loud noise or a busy room near the tank for the first few days."
+          },
+          {
+            "h": "Watch, don't disturb.",
+            "d": "Observe from a distance rather than tapping the glass or moving things around."
+          },
+          {
+            "h": "Note their coloring and behavior.",
+            "d": "A baseline for 'normal' helps you catch changes later."
+          },
+          {
+            "h": "Find an exotics-experienced vet.",
+            "d": "Not all vets treat reptiles \u2014 line one up before you need one."
+          }
+        ]
+      },
+      {
+        "title": "How Often Leopard Geckos Shed",
+        "desc": "What to expect from your gecko's shedding cycle by age, and how to help it go smoothly.",
+        "slug": "how-often-leopard-geckos-shed",
+        "paras": [
+          "Young, growing leopard geckos shed frequently \u2014 sometimes as often as every one to two weeks \u2014 since they're outgrowing their skin quickly. Adult geckos shed much less often, typically once every four to eight weeks, though this varies by individual and health.",
+          "Before a shed, you might notice their skin looking dull or slightly grey, and their appetite may drop for a day or two. A humid hide (a small enclosed space lined with damp moss or paper towel) is essential during shedding season \u2014 it helps the old skin loosen and come away cleanly rather than sticking, which can cause problems, especially around the toes and tail tip.",
+          "Leopard geckos also eat their own shed skin in the wild, which is completely normal and provides some nutrients. If you notice retained skin, especially around the toes, after a couple of days, a vet or experienced keeper can advise on safely helping it along."
+        ]
+      },
+      {
+        "title": "Setting Up a Beginner Habitat",
+        "desc": "Tank size, temperature gradients, hides, and substrate \u2014 the essentials of a first leopard gecko setup.",
+        "slug": "setting-up-a-beginner-habitat",
+        "paras": [
+          "A single adult leopard gecko does well in a 20-gallon long tank at minimum, with more floor space always appreciated. Leopard geckos need a temperature gradient: a warm side around 88-92\u00b0F (usually via an under-tank heater or heat mat, not just a heat lamp) and a cooler side around 75-80\u00b0F, so they can regulate their own body temperature by moving between zones.",
+          "Unlike many reptiles, leopard geckos don't require UVB lighting to survive, though a low-level UVB bulb is increasingly recommended for overall health. You'll need three hides at minimum: one on the warm side, one on the cool side, and a humid hide for shedding.",
+          "Substrate should be solid and easy to clean \u2014 reptile carpet, tile, or paper towels are safest for beginners, since loose sand-like substrates carry a risk of impaction if ingested."
+        ]
+      },
+      {
+        "title": "Signs Your Gecko Is Stressed",
+        "desc": "Behavioral warning signs in leopard geckos, from tail waving to glass surfing, and what they mean.",
+        "slug": "signs-your-gecko-is-stressed",
+        "paras": [
+          "A stressed leopard gecko often shows it through changes in behavior rather than obvious symptoms. Tail waving or vibrating (different from the calm tail wag some geckos do while hunting) can signal agitation, especially paired with a raised or arched posture.",
+          "Loss of appetite over several days, hiding constantly even during normal active hours, or dark, blotchy skin coloring can all point to stress or an unsuitable environment. Glass surfing \u2014 repeatedly climbing and scratching at the enclosure walls \u2014 usually means the habitat feels too exposed or lacks enough hiding spots.",
+          "Handling stress is common too: geckos that drop their tails (a natural defense mechanism) when picked up are telling you handling was too frequent, too rough, or happened before they were ready. If stress signs persist, double-check temperatures, humidity, and hide availability first, since habitat setup is the most common underlying cause."
+        ]
+      },
+      {
+        "title": "Feeding Schedules by Age",
+        "desc": "How often to feed leopard geckos as juveniles, sub-adults, and adults, plus safe prey sizing.",
+        "slug": "feeding-schedules-by-age",
+        "paras": [
+          "Juvenile leopard geckos (under about 6 months) are growing quickly and should be offered appropriately sized insects daily, dusted with a calcium supplement at most feedings. Sub-adults (roughly 6-12 months) can move to feeding every other day as growth slows.",
+          "Adult geckos typically do well on feedings every two to three days, though appetite naturally varies by individual and season \u2014 many geckos eat less during cooler months even indoors. A good rule of thumb for prey size: insects shouldn't be wider than the space between your gecko's eyes, to avoid impaction or choking risk.",
+          "Gut-loading feeder insects (feeding them nutritious food before offering them to your gecko) and regular calcium dusting are both important, since geckos get most of their nutrition indirectly through what their food has eaten. Always remove uneaten live insects after feeding time, since they can stress or even nip a resting gecko overnight."
+        ]
+      }
+    ],
+    "guineapig": [
+      {
+        "title": "10 Things to Do the Day You Bring Your Guinea Pig Home",
+        "desc": "A gentle first-day checklist for new guinea pig owners, from Cleo \u2014 hay, hideouts, and settling in.",
+        "slug": "10-things-to-do-the-day-you-bring-your-guinea-pig-home",
+        "list": [
+          {
+            "h": "Set up the cage in advance.",
+            "d": "Bedding, hideouts, water bottle, and hay should all be ready before your guinea pig arrives."
+          },
+          {
+            "h": "Keep the first day quiet.",
+            "d": "Loud noises and a lot of handling can be overwhelming right away."
+          },
+          {
+            "h": "Offer hay immediately.",
+            "d": "Fresh hay should be available and easy to find from the start."
+          },
+          {
+            "h": "Add at least one hideout.",
+            "d": "Guinea pigs feel safest with somewhere to duck out of sight."
+          },
+          {
+            "h": "Let them explore the cage at their own pace.",
+            "d": "Resist the urge to pick them up right away."
+          },
+          {
+            "h": "Introduce veggies slowly.",
+            "d": "Add one new vegetable at a time over the first week or two."
+          },
+          {
+            "h": "Talk softly nearby.",
+            "d": "Getting used to your voice helps guinea pigs feel safe faster than handling does."
+          },
+          {
+            "h": "Watch eating and drinking.",
+            "d": "Confirm they're eating hay and drinking water in the first 24 hours."
+          },
+          {
+            "h": "Plan for a cage mate if solo.",
+            "d": "Guinea pigs are highly social \u2014 a bonded pair is often happier than one alone."
+          },
+          {
+            "h": "Book a first check-up.",
+            "d": "An exotics vet visit early on helps catch anything that needs attention."
+          }
+        ]
+      },
+      {
+        "title": "Signs Your Guinea Pig Is Happy",
+        "desc": "From popcorning to wheeking, here's how to tell your guinea pig is content.",
+        "slug": "signs-your-guinea-pig-is-happy",
+        "paras": [
+          "Happy guinea pigs are wonderfully expressive, and one of the most delightful signs is 'popcorning' \u2014 a sudden joyful hop or twist, often seen during playtime or feeding time. Wheeking, a loud, excited squeal, is a classic sign of anticipation, especially when guinea pigs hear the fridge open or a bag rustle.",
+          "Soft purring or chattering-adjacent sounds during petting usually signal contentment, distinct from the sharper teeth-chattering that signals irritation. Relaxed, stretched-out lounging (rather than a tightly curled ball) shows a guinea pig feels safe in their space.",
+          "Guinea pigs are also social animals, so a happy guinea pig kept with a bonded companion will often groom, cuddle, or simply sit close to their cage mate. If your guinea pig approaches the front of the cage at your presence rather than hiding, that's a good sign they feel comfortable with you too."
+        ]
+      },
+      {
+        "title": "Safe Veggies (and Ones to Avoid)",
+        "desc": "A guide to guinea-pig-safe vegetables, plus which foods to skip entirely.",
+        "slug": "safe-veggies-and-ones-to-avoid",
+        "paras": [
+          "Guinea pigs need fresh vegetables daily as part of their vitamin C intake, since \u2014 like humans \u2014 they can't produce their own. Bell peppers are an excellent choice and unusually high in vitamin C, along with leafy greens like romaine, cilantro, and parsley (in moderation, since parsley is high in calcium).",
+          "Cucumber, small amounts of carrot, and tomato (flesh only, not the leaves or stem) are also safe in moderation. Avoid iceberg lettuce, which offers little nutritional value and can cause digestive upset, and go easy on very calcium-rich foods for adult guinea pigs, since excess calcium can contribute to bladder stone risk.",
+          "Avoid feeding onions, garlic, potatoes, rhubarb, and anything from the allium family entirely, as these are toxic. Introduce new vegetables gradually and in small amounts, watching for any digestive upset, since a guinea pig's system can be sensitive to sudden diet changes."
+        ]
+      },
+      {
+        "title": "Why Guinea Pigs Need Vitamin C",
+        "desc": "Why guinea pigs can't make their own vitamin C, and how to make sure they get enough.",
+        "slug": "why-guinea-pigs-need-vitamin-c",
+        "paras": [
+          "Guinea pigs are one of the few animals, alongside humans, that cannot synthesize their own vitamin C and must get it entirely from their diet. A deficiency can lead to scurvy, causing symptoms like lethargy, joint pain, poor coat condition, and a weakened immune system over time.",
+          "Fresh vegetables and a small amount of vitamin C-fortified guinea pig pellet are the main sources \u2014 but pellets lose vitamin C potency over time, so buying smaller bags more frequently and storing them properly matters more than people expect. Bell peppers are one of the richest natural sources, often recommended as a daily staple alongside leafy greens.",
+          "Some owners also offer vitamin C supplements or drops, especially during illness or recovery, though this should be balanced carefully since too much can also cause issues \u2014 a vet can advise on dosing if you're concerned your guinea pig isn't getting enough through diet alone."
+        ]
+      },
+      {
+        "title": "Cage Size & Enrichment Basics",
+        "desc": "How much space guinea pigs really need, and simple enrichment ideas to keep them happy.",
+        "slug": "cage-size-enrichment-basics",
+        "paras": [
+          "Guinea pigs need much more floor space than their small size suggests \u2014 a general minimum is 7.5 square feet for one guinea pig, and significantly more for a pair or group, since they're highly social and do best living with at least one companion.",
+          "Multi-level cages with ramps aren't ideal for guinea pigs the way they are for some small pets, since guinea pigs are ground-dwelling and can injure themselves on ramps or falls; more floor space is almost always better than added height. Provide multiple hideouts so each guinea pig has a retreat, plus chew-safe wood toys to help manage their continuously growing teeth.",
+          "A cozy corner with soft bedding for sleeping, separate from their bathroom area, encourages good hygiene habits. Daily supervised floor time outside the cage \u2014 in a guinea-pig-proofed room or playpen \u2014 gives them room to run, explore, and popcorn to their heart's content."
+        ]
+      }
+    ],
+    "bird": [
+      {
+        "title": "10 Things to Do the Day You Bring Your Bird Home",
+        "desc": "A calm first-day checklist for new pet bird owners, from Felix \u2014 cage setup, quiet time, and bonding.",
+        "slug": "10-things-to-do-the-day-you-bring-your-bird-home",
+        "list": [
+          {
+            "h": "Set up the cage first.",
+            "d": "Perches, food, water, and a few toys should be ready before your bird ever arrives."
+          },
+          {
+            "h": "Give them quiet time to adjust.",
+            "d": "A new home is a lot to take in \u2014 let your bird settle before trying to interact much."
+          },
+          {
+            "h": "Keep the cage covered part of the day.",
+            "d": "A covered, dim space helps a stressed bird feel secure."
+          },
+          {
+            "h": "Avoid handling right away.",
+            "d": "Let your bird get used to your voice and presence before attempting to hold them."
+          },
+          {
+            "h": "Match their old diet at first.",
+            "d": "Ask what they were eating before and keep it consistent to start."
+          },
+          {
+            "h": "Place the cage thoughtfully.",
+            "d": "Away from drafts, kitchen fumes, and directly loud areas of the house."
+          },
+          {
+            "h": "Talk to them often, calmly.",
+            "d": "Birds bond through voice and routine before they bond through touch."
+          },
+          {
+            "h": "Watch for eating and droppings.",
+            "d": "Confirm normal eating and bathroom habits in the first day or two."
+          },
+          {
+            "h": "Keep the household calm.",
+            "d": "Loud TV, parties, or lots of new faces can wait a few days."
+          },
+          {
+            "h": "Find an avian vet nearby.",
+            "d": "Not every vet treats birds \u2014 research one before you need one."
+          }
+        ]
+      },
+      {
+        "title": "Enrichment Ideas for Indoor Birds",
+        "desc": "Foraging toys, training, and rotation strategies to keep pet birds mentally stimulated.",
+        "slug": "enrichment-ideas-for-indoor-birds",
+        "paras": [
+          "Birds are highly intelligent and need regular mental stimulation to stay happy, since boredom is a leading cause of feather-plucking and other stress behaviors. Foraging toys that hide treats or pellets behind cardboard, paper, or puzzle compartments tap into a bird's natural instinct to work for food, rather than simply eating from a bowl.",
+          "Rotate toys every week or two rather than leaving the same ones out indefinitely \u2014 novelty matters a lot to birds, and a 'new' toy can just be one that's been put away and reintroduced. Safe, bird-friendly branches for chewing and perching offer both enrichment and beak maintenance.",
+          "Training sessions using positive reinforcement (like target training or simple tricks) double as bonding time and mental exercise. And don't underestimate background stimulation: place the cage where your bird can see some household activity or, weather permitting, a window view of the outdoors \u2014 most birds enjoy having something to watch."
+        ]
+      },
+      {
+        "title": "Understanding Cockatiel Moods",
+        "desc": "What a cockatiel's crest, blush, and beak-grinding are really telling you.",
+        "slug": "understanding-cockatiel-moods",
+        "paras": [
+          "A cockatiel's crest is one of the clearest mood indicators: a crest held upright and alert usually signals curiosity or excitement, while a flattened crest pinned close to the head can mean fear or aggression, especially paired with hissing or lunging. A relaxed, slightly raised crest during quiet moments generally shows contentment.",
+          "Cockatiels also blush \u2014 their cheek patches can visibly darken or brighten when they're excited or engaged, similar to how a person's face might flush. Beak grinding, a soft grating sound made before sleep, is a sign of relaxation and contentment, not distress.",
+          "Tail wagging or fanning, different from a dog's wag, often shows happiness or an attempt to get attention. Growly or hissing sounds paired with an open beak and lunging body language are clear warnings to back off and give space, usually related to territorial feelings around the cage or a favorite person."
+        ]
+      },
+      {
+        "title": "Safe Foods for Pet Birds",
+        "desc": "A vet-informed list of safe fruits, veggies, and staples for pet birds \u2014 and foods to avoid entirely.",
+        "slug": "safe-foods-for-pet-birds",
+        "paras": [
+          "A varied diet of fresh vegetables, a smaller portion of fruit, and a quality pellet base generally serves most pet birds well, supplementing (not fully replacing) seed mixes, which tend to be high in fat if fed exclusively. Leafy greens, carrots, broccoli, and bell peppers are great vegetable staples, while fruits like apple (seeds removed), berries, and melon can be offered as occasional treats.",
+          "Avocado is toxic to birds and should never be offered, along with chocolate, caffeine, and alcohol, all of which affect birds even more severely than mammals due to their fast metabolism. Onions and garlic in large quantities can also cause problems over time.",
+          "Fruit pits and apple seeds contain trace cyanide compounds and should be removed before offering the flesh. As with any pet, introduce new foods gradually and remove uneaten fresh food within a few hours to prevent spoilage in the cage."
+        ]
+      },
+      {
+        "title": "Setting Up a Daily Routine",
+        "desc": "Why light cycles and consistency matter so much for pet bird health and behavior.",
+        "slug": "setting-up-a-daily-routine",
+        "paras": [
+          "Birds do best with a predictable daily rhythm, partly because consistent light and dark cycles matter for their internal clock and hormonal health. Aim for roughly 10-12 hours of quiet, dark sleep time each night, using a cage cover if household activity runs later than your bird's bedtime.",
+          "Mornings and evenings tend to be a bird's most naturally active periods, making them good windows for training, out-of-cage time, and interaction. Fresh food and water should be part of the daily routine, ideally offered at consistent times so your bird knows what to expect.",
+          "Build in dedicated one-on-one time daily, even if brief \u2014 talking, target training, or simply sitting near the cage \u2014 since birds are social animals that can become withdrawn or stressed without regular interaction. A steady routine, more than any single factor, tends to produce the calmest, most confident pet birds."
+        ]
+      }
+    ],
+    "bunny": [
+      {
+        "title": "10 Things to Do the Day You Bring Your Bunny Home",
+        "desc": "A calm, safety-first checklist for new rabbit owners, from Winnie.",
+        "slug": "10-things-to-do-the-day-you-bring-your-bunny-home",
+        "list": [
+          {
+            "h": "Set up their space at floor level.",
+            "d": "Rabbits feel safer with their feet on solid ground rather than up on furniture or shelves."
+          },
+          {
+            "h": "Add a hideout immediately.",
+            "d": "A safe, enclosed spot to retreat to matters more for rabbits than almost any other pet."
+          },
+          {
+            "h": "Offer hay right away.",
+            "d": "Fresh hay should be available and easy to find from the very first hour."
+          },
+          {
+            "h": "Keep the first day low-key.",
+            "d": "Skip handling and big introductions \u2014 let your bunny settle in first."
+          },
+          {
+            "h": "Bunny-proof the room.",
+            "d": "Cords, baseboards, and houseplants are all fair game to a curious rabbit."
+          },
+          {
+            "h": "Let them approach you.",
+            "d": "Sit near their space quietly rather than reaching in over and over."
+          },
+          {
+            "h": "Introduce veggies gradually.",
+            "d": "One new vegetable at a time, in small amounts, over the first couple of weeks."
+          },
+          {
+            "h": "Watch their eating and litter habits.",
+            "d": "Confirm normal eating and bathroom habits within the first day."
+          },
+          {
+            "h": "Keep loud noise to a minimum.",
+            "d": "Rabbits are prey animals and startle easily at first."
+          },
+          {
+            "h": "Find a rabbit-savvy vet.",
+            "d": "Not all vets treat rabbits \u2014 it's worth lining one up early."
+          }
+        ]
+      },
+      {
+        "title": "Understanding Bunny Body Language",
+        "desc": "From binkies to flops to foot thumps \u2014 how to read what your rabbit is feeling.",
+        "slug": "understanding-bunny-body-language",
+        "paras": [
+          "A bunny's most famous body language move is the 'binky' \u2014 a joyful jump and mid-air twist that's one of the clearest signs of happiness a rabbit can show. Flopping over dramatically onto their side, especially from an upright position, is another happy, relaxed behavior, not a sign of illness (though it can look alarming the first time you see it).",
+          "Thumping a hind foot loudly against the ground is a warning or alert signal, often in response to a perceived threat or something startling. Ears held upright and forward usually show alertness or curiosity, while ears flattened back against the body can mean fear or annoyance.",
+          "A relaxed bunny will often 'loaf' \u2014 sitting with all four feet tucked under their body in a compact loaf shape \u2014 which is a calm, content resting position. Nudging with the nose is often a request for attention or a gentle way of asking you to move."
+        ]
+      },
+      {
+        "title": "Creating a Safe Space for a New Bunny",
+        "desc": "How to help a new rabbit feel secure in their first days, without overwhelming them.",
+        "slug": "creating-a-safe-space-for-a-new-bunny",
+        "paras": [
+          "Rabbits are prey animals, so a new bunny's first days should focus heavily on making them feel secure rather than immediately trying to socialize or handle them extensively. Provide at least one enclosed hideout where they can retreat completely out of sight \u2014 this matters more for rabbits than almost any other small pet.",
+          "Keep the space at floor level rather than a high shelf or table, since rabbits generally feel safer and more confident with their feet on solid ground. Bunny-proof the area thoroughly: rabbits chew constantly, so electrical cords, baseboards, and houseplants need to be blocked off or removed, since many common plants are toxic.",
+          "Keep initial interactions calm and on the bunny's terms \u2014 sit near their space quietly rather than reaching in repeatedly, and let them approach you first. Trust with rabbits tends to build slowly but is very durable once established."
+        ]
+      },
+      {
+        "title": "Hay, Veggies & Treats Explained",
+        "desc": "How to balance hay, fresh greens, pellets, and treats in a healthy rabbit diet.",
+        "slug": "hay-veggies-treats-explained",
+        "paras": [
+          "Hay should make up the vast majority of a rabbit's diet \u2014 roughly 80% or more \u2014 and should be available at all times, not just at mealtimes. It's essential for digestive health and for wearing down a rabbit's continuously growing teeth.",
+          "Timothy hay is the standard staple for adult rabbits, while younger, growing rabbits often do well with alfalfa hay, which is richer in calories and calcium. Fresh leafy greens (like romaine, cilantro, and herbs) should be offered daily in modest portions, introduced one at a time to watch for digestive sensitivity.",
+          "A small measured portion of rabbit pellets rounds out the diet, but shouldn't replace hay as the primary food source. Treats like small pieces of fruit or carrot should be occasional, not daily, since rabbits are prone to weight gain and digestive upset from sugar-heavy diets \u2014 think of them as an occasional bonus, not a diet staple."
+        ]
+      },
+      {
+        "title": "Bunny-Proofing Checklist",
+        "desc": "A room-by-room safety checklist for keeping a curious, chew-happy rabbit safe indoors.",
+        "slug": "bunny-proofing-checklist",
+        "paras": [
+          "Before giving a rabbit access to a room, walk through it at floor level looking specifically for chewing hazards. Cover or hide electrical cords using cord protectors or by routing them out of reach entirely, since chewed cords are both a shock and fire hazard.",
+          "Remove or block access to houseplants, checking each one against a rabbit-safe plant list, since many common varieties are toxic. Protect baseboards and furniture legs with plastic guards or furniture, since rabbits will happily chew wood trim given the chance.",
+          "Block off any small gaps behind or under furniture and appliances where a curious rabbit could get stuck. Keep small objects, books, and anything chewable up off the floor, and secure trash cans and low cabinets with anything toxic inside. Finally, provide plenty of appropriate chew toys (untreated wood, hay-based chews, cardboard) so your bunny has a satisfying, safe outlet for their natural chewing instinct."
+        ]
+      }
+    ]
+  }
+}
