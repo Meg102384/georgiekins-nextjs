@@ -1,7 +1,18 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import { useCart } from './CartContext';
+import { PET_PRODUCTS } from '@/lib/data';
+
+// Cart items saved before per-item images were added only have an emoji
+// `icon` field, not `img`. Fall back to looking the pet's image up by the
+// sku's pet-key prefix so those older saved carts don't render blank.
+function imgForItem(sku, item) {
+  if (item.img) return item.img;
+  const petKey = sku.split('-')[0];
+  return PET_PRODUCTS.find((p) => p.key === petKey)?.img;
+}
 
 export default function CartDrawer() {
   const { items, changeQty, removeItem, count, total, open, setOpen } = useCart();
@@ -68,7 +79,13 @@ export default function CartDrawer() {
               const it = items[sku];
               return (
                 <div key={sku} className="bg-white border-2 border-line-blue rounded-2xl px-4 py-3 flex items-center gap-3">
-                  <span className="text-2xl">{it.icon}</span>
+                  <Image
+                    src={`/images/${imgForItem(sku, it)}`}
+                    alt=""
+                    width={40}
+                    height={40}
+                    className="w-10 h-10 object-contain flex-shrink-0"
+                  />
                   <div className="flex-1 min-w-0">
                     <div className="font-fredoka font-semibold text-cocoa text-sm">{it.name}</div>
                     <div className="text-xs text-navy-soft font-semibold">${it.price} each</div>

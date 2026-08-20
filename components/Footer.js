@@ -31,13 +31,13 @@ export default function Footer() {
         Made with love for furry, feathered, and scaly friends everywhere.
       </p>
       <nav className="flex flex-wrap justify-center gap-x-4 gap-y-1 my-4" aria-label="Footer">
-        <button type="button" onClick={() => setModal('contact')} className="footlink">Contact</button>
-        <Link href="/#faq" className="footlink">FAQ</Link>
-        <button type="button" onClick={() => setModal('digital')} className="footlink">Digital Download Policy</button>
-        <button type="button" onClick={() => setModal('refund')} className="footlink">Refund Policy</button>
-        <Link href="/terms" className="footlink">Terms &amp; Conditions</Link>
-        <Link href="/privacy" className="footlink">Privacy Policy</Link>
-        <button type="button" onClick={() => setModal('disclaimer')} className="footlink">Pet Care Disclaimer</button>
+        <button type="button" onClick={() => setModal('contact')} className="bg-transparent border-none cursor-pointer text-[0.8rem] font-bold text-navy-soft hover:text-coral-deep hover:underline transition-colors">Contact</button>
+        <Link href="/#faq" className="text-[0.8rem] font-bold text-navy-soft hover:text-coral-deep hover:underline transition-colors">FAQ</Link>
+        <button type="button" onClick={() => setModal('digital')} className="bg-transparent border-none cursor-pointer text-[0.8rem] font-bold text-navy-soft hover:text-coral-deep hover:underline transition-colors">Digital Download Policy</button>
+        <button type="button" onClick={() => setModal('refund')} className="bg-transparent border-none cursor-pointer text-[0.8rem] font-bold text-navy-soft hover:text-coral-deep hover:underline transition-colors">Refund Policy</button>
+        <Link href="/terms" className="text-[0.8rem] font-bold text-navy-soft hover:text-coral-deep hover:underline transition-colors">Terms &amp; Conditions</Link>
+        <Link href="/privacy" className="text-[0.8rem] font-bold text-navy-soft hover:text-coral-deep hover:underline transition-colors">Privacy Policy</Link>
+        <button type="button" onClick={() => setModal('disclaimer')} className="bg-transparent border-none cursor-pointer text-[0.8rem] font-bold text-navy-soft hover:text-coral-deep hover:underline transition-colors">Pet Care Disclaimer</button>
       </nav>
       <p className="text-sm text-navy-soft font-semibold">© 2026 Georgiekins · support@georgiekins.com</p>
       <div className="mt-2 opacity-60 tracking-[0.6rem] text-sm" aria-hidden="true">🐾 💗 🐾</div>
@@ -70,22 +70,6 @@ export default function Footer() {
           </div>
         </div>
       )}
-
-      <style jsx>{`
-        .footlink {
-          font-size: 0.8rem;
-          color: #4B679B;
-          font-weight: 700;
-          background: none;
-          border: none;
-          cursor: pointer;
-          text-decoration: none;
-        }
-        .footlink:hover {
-          color: #EE7295;
-          text-decoration: underline;
-        }
-      `}</style>
     </footer>
   );
 }

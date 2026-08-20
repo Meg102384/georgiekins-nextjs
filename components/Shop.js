@@ -77,7 +77,7 @@ function PetCard({ pet, onAddToCart }) {
     if (checked.length === 0) return;
     checked.forEach((typeKey) => {
       const sku = `${pet.key}-${typeKey}`;
-      onAddToCart(sku, `${pet.species} ${labelFor(typeKey)}`, pet.emoji || '🐾', priceFor(pet, typeKey));
+      onAddToCart(sku, `${pet.species} ${labelFor(typeKey)}`, pet.img, priceFor(pet, typeKey));
     });
     setFlash(true);
     setChecked([]);
